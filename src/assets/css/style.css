@@ -1,0 +1,461 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: #e6e6e6;
+}
+ul, li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a, a:hover{
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.row{
+    margin: 0;
+}
+h1 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #ffffff;
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000000;
+}
+button{
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: #ffffff;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    transition: all 0.3s;
+    background: #4712a8;
+}
+button:hover{
+    background: #ffffff;
+    color: #4712a8;
+    transition: all 0.3s;
+}
+
+/* common style end */
+
+
+.left-side{
+    background: #ffffff;
+    height: 100%;
+    /* position: fixed; */
+    padding-bottom:70px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    padding: 0 30px 0 0;
+}
+.logo img {
+    width: 100%;
+    margin: 10px 0;
+    
+}
+.left-side aside {
+    padding-left: 38px;
+}
+aside ul li i{
+    margin-right: 5px;
+    color: #000000;
+}
+aside ul li a {
+    color: #000000;
+    font-size: 14px;
+    padding: 5px 0;
+    display: block;
+}
+aside ul li a:hover{
+    color: #4712a8;
+}
+.online-store:hover{
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+.online-store {
+    transition: all 0.3s;
+}
+.online-store img {
+    width: 100%;
+    margin: 20px 0 10px;
+}
+/* main-banner */
+.banner-div{
+    padding-left: 0;
+}
+.main-banner{
+    background: url(../images/1.png) no-repeat #4712a8;
+    background-size: cover;
+    height: 500px;
+    background-position: top center;
+    padding: 30px 15px 0;
+    margin-right: 30px;
+    border-radius: 0 0 50px 0;
+}
+header ul li a{
+    color: #ffffff;
+    padding: 0 5px;
+}
+header ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+header {
+    text-align: right;
+    font-size: 14px;
+    color: #ffffff;
+}
+.banner-info h1 {
+    font-size: 58px;
+    line-height: 83px;
+}
+.banner-info {
+    width: 100%;
+    height: 350px;
+    padding: 35px 0 0 60px;
+}
+.banner-info p {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 22px;
+}
+.banner-info h1 span {
+    font-weight: 400;
+}
+.get-started {
+    border: 2px solid #e1d41e;
+    margin: 30px 0 0;
+}
+/* ----- jackpots --- */
+.jackpots{
+    background: #e6e6e6;
+    padding: 50px 0 100px 50px;
+}
+.jackpots h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.jackpots h3 i {
+    margin-right: 10px;
+}
+.jackpots h3 span {
+    color: #8f8e8e;
+    font-weight: 400;
+}
+.jackpot-icons li img {
+    width: 120px;
+    display: block;
+    margin: auto;
+    margin: 5px;
+}
+.jackpot-icons li {
+    display: inline-block;
+    text-align: center;
+}
+/* life is jackpot */
+.life-jackpot {
+    background: #4712a8;
+    position: relative;
+    margin: 0 50px;
+    border-radius: 10px;
+}
+.banner-info2 h1 {
+    font-size: 36px;
+    line-height: 63px;
+}
+.banner-info2 {
+    width: 100%;
+    height: 300px;
+    padding: 40px 0 0 18px;
+}
+.banner-info2 a {
+    color: #ffffff;
+    margin-left: 70px;
+}
+.banner-info2 a span {
+    color: #e1d41e;
+}
+
+.banner-info2 h1 span {
+    font-weight: 400;
+}
+.get-started2 {
+    border: 2px solid #e1d41e;
+    margin: 10px 0 0;
+    border-radius: 10px;
+}
+.fish-man {
+    position: absolute;
+    right: 0;
+    top: -65px;
+}
+
+/* -----------jackpot times */
+
+.jackpots-offers {
+    padding: 50px 0 100px 50px;
+}
+.box-jackpot {
+    width: 245px;
+    padding: 10px 0;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 16px;
+}
+.box-jackpot button {
+    color: #ffffff;
+    background: #000000;
+    width: 70px;
+    height: 60px;
+    margin: 0 auto 20px;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 0;
+    transition: all .3s;
+}
+.box-jackpot button:hover {
+    color: #000000;
+    background: transparent;
+    transition: all .3s;
+}
+.jackpots-offers h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.jackpots-offers h3 i {
+    margin-right: 10px;
+}
+.jackpots-offers h3 span {
+    color: #8f8e8e;
+    font-weight: 400;
+}
+
+.jackpots-offers li {
+    display: inline-block;
+    margin-right: 14px;
+}
+.box-jackpot img{
+    margin: auto;
+    width: 80px;
+    display: block;
+}
+.box-jackpot strong {
+    display: block;
+    font-size: 37px;
+    color: #ffffff;
+}
+.box-jackpot {
+    color: #ffffff;
+}
+.box-jackpot h3 {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+}
+.supper-prize{
+    font-size: 12px;
+}
+.time-left{
+    font-size: 12px;
+}
+/* add info */
+.add-info {
+    margin: 0 50px 30px;
+}
+.add-info img {
+    width: 100%;
+    height: 355px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* subscribe newletter */
+.subscribe-newletter img {
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+}
+.subscribe-info {
+    position: absolute;
+    bottom: 24px;
+    width: 500px;
+    left: 62px;
+}
+.letter-info{
+    position: relative;
+}
+.letter-info input {
+    height: 50px;
+    font-size: 14px;
+    color: #000000;
+}
+.subscribe-btn {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    background: #4712a8;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.subscribe-info .checkbox-inline {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 10px 0 0;
+}
+.you-won {
+    background: url(../images/add-4.PNG) no-repeat;
+    height: 200px;
+    width: 100%;
+    display: block;
+    background-size: 100%;
+    border-radius: 10px;
+}
+.you-won h2 {
+    font-size: 28px;
+    text-align: left;
+    margin: 0 0 0;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 72px 0 0 60px;
+    line-height: 27px;
+}
+.you-won h2 strong {
+   display: block;
+   font-weight: 600;
+}
+.you-won .get-started {
+    margin:8px 60px 0;
+}
+.add-info2 {
+    margin: 0 50px 30px;
+}
+
+
+/* winner box */
+
+.we-won-jackpot {
+    margin: 0 50px 30px;
+}
+.we-won-jackpot h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.winner_box{
+    background: #ffffff;
+    padding: 30px  15px;
+    text-align: center;
+    margin: 0 0 30px;
+}
+.winner_box p {
+    font-size: 14px;
+}
+.winner_box h3 {
+    font-size: 18px;
+}
+/* ------- latest blog ----- */
+.latest-job h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.latest-job h3 i {
+    margin-right: 10px;
+}
+.latest-job h3 span {
+    color: #8f8e8e;
+    font-weight: 400;
+}
+.latest-job{
+    margin: 0 68px 30px;
+}
+.latest-job ul li{
+    width: 260px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.latestjob_box{
+    background: #ffffff;
+    text-align: center;
+    margin: 0 0 30px;
+}
+.latestjob_box img{
+    width: 100%;
+}
+.blog-info{
+    padding: 20px 10px;
+}
+.read-more {
+    background: #4712a8;
+    color: #ffffff;
+    background: #ffffff;
+    margin-top: 15px;
+    color: #4712a8;
+    width: 100%;
+    padding: 5px 0;
+    border: 1px solid #4712a8;
+}
+.read-more:hover {
+    background: #4712a8;
+    color: #ffffff;
+    border: 1px solid #4712a8;
+}
+/* ------footer------- */
+footer{
+    background: #ffffff;
+    padding: 50px 0;
+}
+.play-simple {
+    padding-left: 75px;
+}
+.play-simple h5 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+.playes-info h6 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.playes-info ul li a {
+    font-size: 14px;
+    color: #000000;
+    padding: 5px 0;
+    display: block;
+    transition: all 0.3s;
+}
+.playes-info ul li a:hover {
+    transition: all 0.3s;
+    opacity: 0.7;
+}
+/* ----bootom footer---- */
+.bottom-footer{
+    margin: 30px 0 0;
+}
+.logo_info_bottom a, .logo_info_bottom p{
+    display: inline-block;
+}
+.logo_info_bottom a img {
+    width: 90px;
+    margin-left: 46px;
+    margin-right: 10px;
+}
+.logo_info_bottom p {
+    width: 60%;
+    font-size: 12px;
+    font-weight: 700;
+}
+.plus-spain img {
+    width: 89%;
+    margin: 16px 0 0;
+    display: block;
+}
